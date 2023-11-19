@@ -1,0 +1,76 @@
+#root {
+    margin: 4rem 0;
+}
+   
+#previewerwrap {
+  width: 40%;
+  margin: 2rem auto;
+  border: solid;
+}
+
+#editorwrap {
+  width: 25%;
+  margin: 0 auto;
+  border: solid;
+}
+
+@media (max-width: 700px) {
+  #previewerwrap {
+    width: 80%;
+  }
+  #editorwrap {
+    width: 65%;
+  }
+}
+
+#editor {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+#preview {
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+
+h1 {
+  border-bottom: solid;
+}
+
+h2 {
+  border-bottom: solid 1px;
+}
+
+code, pre {
+  background-color: #eee;
+  padding: 0.5rem;
+}
+
+blockquote {
+  border-left: 3px solid red;
+  padding-left: 0.5rem;
+  margin: 0 0 0 2rem;
+}
+
+.toolbar {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  padding: 0 1rem;
+  border-bottom: solid;
+}
+i {
+  font-size: 3rem;
+}
+
+th, td {
+  border: solid;
+}
